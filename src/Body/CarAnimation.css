@@ -5,7 +5,7 @@
 .hero{
     height:100vh;
     width:100%;
-    background-image: url("./images/sky.jpg");
+    background-image: url("./images/sky.webp");
     background-size: cover;
     background-position:center;
     position: relative;
@@ -15,7 +15,7 @@
     height: 200px;
     width:500%;
     display: block;
-    background-image: url("./images/road.jpg");
+    background-image: url("./images/road.webp");
     position: absolute;
     bottom: 0;
     left: 0;
@@ -27,7 +27,7 @@
 @keyframes highway {
 
     100%{
-        transform: translateX(-2000px) ;
+        transform: translateX(-3400px) ;
     }
 
 }
@@ -77,6 +77,7 @@
     }
 
 }
+
 .wheel{
     left:50%;
     bottom: 178px;
@@ -97,6 +98,32 @@
 .front-wheel{
     left:80px;
     position:absolute;
+}
+@media (max-width: 768px ) {
+    .car {
+        width: 300px
+    }
+
+    .wheel img{
+        width:54px;
+        height: 54px;
+    }
+    .back-wheel{
+        left: -125px;
+        top:16px
+    }
+    .front-wheel{
+        left: 60px;
+        top:16px
+    }
+    @keyframes highway {
+
+        100%{
+            transform: translateX(-1400px) ;
+        }
+
+    }
+
 }
 @keyframes wheel {
 

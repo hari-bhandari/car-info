@@ -6,6 +6,7 @@ import SearchBar from "./SearchBar";
 
 const CarAnimation = () => {
     return (
+
         <body>
         <div className="hero">
             <SearchBar/>
