@@ -1,13 +1,17 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import CarAnimation from "./Body/CarAnimation";
-import SearchBar from "./Body/SearchBar";
-
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 function App() {
   return (
+      <Router>
+          <div>
+              <Switch>
+                  <Route exact path={'/'} component={CarAnimation}/>
+                  <Route exact path={'/:id'} component={CarAnimation}/>
 
-        <div>
-            <CarAnimation/>
-        </div>
+              </Switch>
+          </div>
+      </Router>
 
 
   );
