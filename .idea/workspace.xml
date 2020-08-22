@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Body/AboutCar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body/AboutCar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Body/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/CarInformation/carReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/CarInformation/carReducer.js" afterDir="false" />
     </list>
@@ -49,7 +50,7 @@
       <workItem from="1597995853027" duration="2912000" />
       <workItem from="1598016801189" duration="5707000" />
       <workItem from="1598028372473" duration="4242000" />
-      <workItem from="1598086109360" duration="11212000" />
+      <workItem from="1598086109360" duration="12649000" />
     </task>
     <servers />
   </component>
