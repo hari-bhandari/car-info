@@ -3,26 +3,7 @@ import axios from 'axios'
 import './AboutMe.css'
 const AboutCar = (number) => {
     const[response,setResponse]=useState('')
-    const getData=async (number)=>{
-        const config = {
-            headers: {
-                'Content-Type': 'application/json',
-                "x-api-key":"hs8ZqgPMwb3rcFk8yeg15ti7zw7yLLQ1yKzt4z6i"
-            }
-        };
-        const formData = {"registrationNumber":number};
-        try {
-            const res = await axios.post('vehicle-enquiry/v1/vehicles', formData, config);
-            setResponse(res.data)
 
-        } catch (err) {
-            console.log(err.response.data.message)
-        }
-
-
-
-
-      }
         useEffect(()=>{
             getData("AD57ZFF")
         },[])
