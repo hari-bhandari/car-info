@@ -3,7 +3,6 @@ import React, { useReducer } from 'react';
 import axios from 'axios';
 import CarContext from './carContext';
 import carReducer from './carReducer';
-import setAuthToken from "../../utils/setAuthToken";
 
 import {
     GET_VEHICLE_INFO, GET_VEHICLE_INFO_ERROR
@@ -33,10 +32,18 @@ const CarState=props=>{
             })
 
         } catch (err) {
-            dispatch({
-                type:GET_VEHICLE_INFO_ERROR,
-                payload:err.response.data.message
-            })
+            if(err.response.status == 400){
+                dispatch({
+                    type:GET_VEHICLE_INFO_ERROR,
+                    payload:"The vehicle registration number you provided doesn't exist"
+                })
+            }
+            else {
+                dispatch({
+                    type: GET_VEHICLE_INFO_ERROR,
+                    payload: err.response.data.message
+                })
+            }
         }
 
 
@@ -45,10 +52,8 @@ const CarState=props=>{
     }
     return(
         <CarContext.Provider value={{
-            token:state.token,
-            isAuthenticated:state.isAuthenticated,
+            info:state.info,
             loading:state.loading,
-            user:state.user,
             error:state.error,
             getData
 

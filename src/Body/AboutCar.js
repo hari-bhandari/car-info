@@ -1,27 +1,36 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios'
+import React, {useContext, useEffect, useState} from 'react';
+import CarContext from '../context/CarInformation/carContext'
 import './AboutMe.css'
-const AboutCar = (number) => {
-    const[response,setResponse]=useState('')
+const AboutCar = () => {
+    const carContext=useContext(CarContext)
+    const{getData,info}=carContext
 
         useEffect(()=>{
             getData("AD57ZFF")
         },[])
 
     return (
+        info&&(
         <div className="section-fluid-main">
             <div className="section">
                 <div className="info-wrap mob-margin">
-                    <p className="title-up">Modern chair</p>
-                    <h2>Sella Gastro</h2>
-                    <h4>$174 <span>$237</span></h4>
+                    <p className="title-up">{info.yearOfManufacture}</p>
+                    <h2>{info.make}</h2>
+                    <h5>MOT Status:{info.motStatus}</h5>
                     <div className="section-fluid">
                         <input className="desc-btn" type="radio" id="desc-1" name="desc-btn" checked/>
-                        <label htmlFor="desc-1">Description</label>
-                        <input className="desc-btn" type="radio" id="desc-2" name="desc-btn"/>
-                        <label htmlFor="desc-2">Details</label>
                         <div className="section-fluid desc-sec accor-1">
-                            <p>The chair construction is made of ash tree. Upholstery and wood color at customer's request.</p>
+                            <p>CO2 Emissions : {info.co2Emissions}</p>
+                            <p>Engine Capacity: {info.engineCapacity}</p>
+                            <p>Marked For Export: {info.markedForExport}</p>
+                            <p>Fuel Type: {info.fuelType}</p>
+                            <p>Vehicle Colour : {info.colour}</p>
+                            <p>Tax Due Date: {info.taxDueDate}</p>
+                            <p>Tax status : {info.taxStatus}</p>
+                            <p>V5C Issued : {info.dateOfLastV5CIssued}</p>
+                            <p>MOT expiry Date: {info.motExpiryDate}</p>
+                            <p>Wheel Plan: {info.wheelplan}</p>
+                            <p>First Registration: {info.monthOfFirstRegistration}</p>
                         </div>
                         <div className="section-fluid desc-sec accor-2">
                             <div className="section-inline">
@@ -48,7 +57,7 @@ const AboutCar = (number) => {
                     <img src="https://assets.codepen.io/1462889/fcy.png" alt=""/>
                 </a>
             </div>
-        </div>
+        </div>)
     );
 };
 

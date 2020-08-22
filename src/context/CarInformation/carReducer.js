@@ -10,7 +10,7 @@ export default (state, action) => {
         case GET_VEHICLE_INFO_ERROR:
             return {
                 ...state,
-                error:state.error
+                error:action.payload
             }
         default:
             return state
