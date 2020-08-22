@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ba807d-ce73-4faf-88b1-1c05e2fab200" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Body/images/car-b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Body/images/car.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Body/AboutCar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body/AboutCar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Body/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Body/AboutMe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,8 @@
       <workItem from="1597907817213" duration="9434000" />
       <workItem from="1597995853027" duration="2912000" />
       <workItem from="1598016801189" duration="5707000" />
-      <workItem from="1598028372473" duration="2396000" />
+      <workItem from="1598028372473" duration="4242000" />
+      <workItem from="1598086109360" duration="2600000" />
     </task>
     <servers />
   </component>
@@ -62,6 +60,10 @@
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
     <state x="725" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/64.27.1856.1053/1920.0.1920.1080@64.27.1856.1053" timestamp="1597821883038" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598088533018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598088533018" />
     <state x="689" y="291" width="618" height="522" key="find.popup" timestamp="1597915117165">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>

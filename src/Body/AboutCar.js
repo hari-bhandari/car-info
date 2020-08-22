@@ -1,30 +1,30 @@
 import React, {useEffect, useState} from 'react';
+import axios from 'axios'
 import './AboutMe.css'
-const AboutCar = () => {
-    const[res,setRes]=useState('')
-    const getData=async ()=>{
-        const myHeaders = new Headers();
-        myHeaders.append("x-api-key", "hs8ZqgPMwb3rcFk8yeg15ti7zw7yLLQ1yKzt4z6i");
-        myHeaders.append("Content-Type", "application/json");
-        const raw = JSON.stringify({"registrationNumber":"AD57ZFF"});
-
-        const requestOptions = {
-            method: 'POST',
-            headers: myHeaders,
-            body: raw,
-            redirect: 'follow'
+const AboutCar = (number) => {
+    const[response,setResponse]=useState('')
+    const getData=async (number)=>{
+        const config = {
+            headers: {
+                'Content-Type': 'application/json',
+                "x-api-key":"hs8ZqgPMwb3rcFk8yeg15ti7zw7yLLQ1yKzt4z6i"
+            }
         };
+        const formData = {"registrationNumber":number};
         try {
-            const res = await fetch("https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles", requestOptions)
-            setRes(await res.clone().json())
+            const res = await axios.post('vehicle-enquiry/v1/vehicles', formData, config);
+            setResponse(res.data)
 
-        } catch (e) {
-            console.log(e)
-            setRes('error')
-        }}
+        } catch (err) {
+            console.log(err.response.data.message)
+        }
+
+
+
+
+      }
         useEffect(()=>{
-            getData()
-            console.log(res)
+            getData("AD57ZFF")
         },[])
 
     return (
