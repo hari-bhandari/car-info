@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/car-info/static/css/main.a4d37319.chunk.css",
+    "main.js": "/car-info/static/js/main.6da0ab32.chunk.js",
+    "main.js.map": "/car-info/static/js/main.6da0ab32.chunk.js.map",
+    "runtime-main.js": "/car-info/static/js/runtime-main.4d3c8b97.js",
+    "runtime-main.js.map": "/car-info/static/js/runtime-main.4d3c8b97.js.map",
+    "static/js/2.fc7f61e5.chunk.js": "/car-info/static/js/2.fc7f61e5.chunk.js",
+    "static/js/2.fc7f61e5.chunk.js.map": "/car-info/static/js/2.fc7f61e5.chunk.js.map",
+    "index.html": "/car-info/index.html",
+    "precache-manifest.1333698b6e0859eba6fbb000c0d5d719.js": "/car-info/precache-manifest.1333698b6e0859eba6fbb000c0d5d719.js",
+    "service-worker.js": "/car-info/service-worker.js",
+    "static/css/main.a4d37319.chunk.css.map": "/car-info/static/css/main.a4d37319.chunk.css.map",
+    "static/js/2.fc7f61e5.chunk.js.LICENSE.txt": "/car-info/static/js/2.fc7f61e5.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.css": "/car-info/static/media/car-b.421293ef.png",
+    "static/media/car.png": "/car-info/static/media/car.71ecff0c.png",
+    "static/media/CarAnimation.css": "/car-info/static/media/sky.350ae0c7.webp",
+    "static/media/logo1.png": "/car-info/static/media/logo1.ab54778e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d3c8b97.js",
+    "static/js/2.fc7f61e5.chunk.js",
+    "static/css/main.a4d37319.chunk.css",
+    "static/js/main.6da0ab32.chunk.js"
+  ]
+}
