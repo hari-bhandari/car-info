@@ -1,0 +1,22 @@
+.error-notice{
+    margin:5px; /* Make sure to keep some distance from all sides */
+}
+
+.oaerror{
+    width:100%;
+    background-color: #ffffff;
+    padding:8px;
+    border:1px solid #eee;
+    border-left-width:5px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.danger{
+    border-left-color: #f80900; /* Left side border color */
+    background-color: rgb(224, 7, 7); /*Same color as the left border with reduced alpha to 0.1*/
+}
+
+.danger strong{
+    color: #ffffff;
+}

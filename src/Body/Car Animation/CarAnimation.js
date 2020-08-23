@@ -1,15 +1,16 @@
 import React from 'react';
 import './CarAnimation.css'
-import car from './images/car.png'
-import wheel from './images/wheel.png'
-import SearchBar from "./SearchBar";
+import car from '../images/car.png'
+import wheel from '../images/wheel.png'
+import SearchBar from "../Search Bar/SearchBar";
+import logo from "../images/logo1.png";
 
-const CarAnimation = () => {
+const CarAnimation = (props) => {
     return (
 
         <body>
         <div className="hero">
-            <SearchBar/>
+            <SearchBar props={props}/>
             <div className="highway"></div>
             <div className="city"></div>
             <div className="car">
@@ -21,7 +22,12 @@ const CarAnimation = () => {
 
             </div>
 
+
         </div>
+        <a href="https://haribhandari.me" className="logo" target="_blank">
+            <img src={logo} alt=""/>
+        </a>
+
         </body>
     );
 };

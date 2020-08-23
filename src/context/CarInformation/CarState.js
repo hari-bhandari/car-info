@@ -5,12 +5,12 @@ import CarContext from './carContext';
 import carReducer from './carReducer';
 
 import {
-    GET_VEHICLE_INFO, GET_VEHICLE_INFO_ERROR
+    GET_VEHICLE_INFO, GET_VEHICLE_INFO_ERROR, REMOVE_ERROR
 } from '../types'
 const CarState=props=>{
     const initialState = {
         info: null,
-        loading: true,
+        loaded: false,
         error: null
     };
 
@@ -45,17 +45,18 @@ const CarState=props=>{
                 })
             }
         }
-
-
-
-
+    }
+    const removeError=()=>{
+        dispatch({
+            type:REMOVE_ERROR
+        })
     }
     return(
         <CarContext.Provider value={{
             info:state.info,
-            loading:state.loading,
+            loaded:state.loaded,
             error:state.error,
-            getData
+            getData,removeError
 
         }}>{props.children}</CarContext.Provider>
     )
