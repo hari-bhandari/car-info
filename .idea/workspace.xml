@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89ba807d-ce73-4faf-88b1-1c05e2fab200" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" afterDir="false" />
     </list>
@@ -64,7 +66,7 @@
       <workItem from="1598173525434" duration="5340000" />
       <workItem from="1598186247542" duration="89000" />
       <workItem from="1598187206010" duration="3087000" />
-      <workItem from="1598199364855" duration="4339000" />
+      <workItem from="1598199364855" duration="7139000" />
     </task>
     <servers />
   </component>
