@@ -26,12 +26,14 @@ const CarState=props=>{
         const formData = {"registrationNumber":number};
         try {
             const res = await axios.post('https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles', formData, config);
+            console.log(res)
             dispatch({
                 type:GET_VEHICLE_INFO,
                 payload:res.data
             })
 
         } catch (err) {
+            if(err.response.status){
             if(err.response.status == 400){
                 dispatch({
                     type:GET_VEHICLE_INFO_ERROR,
@@ -44,7 +46,7 @@ const CarState=props=>{
                     payload: err.response.data.message
                 })
             }
-        }
+        }}
     }
     const removeError=()=>{
         dispatch({
