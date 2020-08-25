@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ba807d-ce73-4faf-88b1-1c05e2fab200" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/_redirects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/CarInformation/CarState.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +31,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Body/Search Bar" />
-      <recent name="$PROJECT_DIR$/src/Body/Loader" />
-      <recent name="$PROJECT_DIR$/src/Body/Error" />
-      <recent name="$PROJECT_DIR$/src/Body/Car Animation" />
-      <recent name="$PROJECT_DIR$/src/Body/About Car" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Body/images" />
       <recent name="$PROJECT_DIR$/src/Body/Error" />
       <recent name="$PROJECT_DIR$/src/context" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Body/Search Bar" />
+      <recent name="$PROJECT_DIR$/src/Body/Loader" />
+      <recent name="$PROJECT_DIR$/src/Body/Error" />
+      <recent name="$PROJECT_DIR$/src/Body/Car Animation" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +67,8 @@
       <workItem from="1598186247542" duration="89000" />
       <workItem from="1598187206010" duration="3087000" />
       <workItem from="1598199364855" duration="7139000" />
-      <workItem from="1598265816371" duration="1309000" />
+      <workItem from="1598265816371" duration="2252000" />
+      <workItem from="1598350640903" duration="1221000" />
     </task>
     <servers />
   </component>
@@ -73,6 +76,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="342" width="598" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598267191223">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="656" y="342" width="598" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598267191223" />
     <state x="725" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597821883038">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>

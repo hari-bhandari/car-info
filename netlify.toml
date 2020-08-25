@@ -1,10 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/"
+  to = "https://driver-vehicle-licensing.api.gov.uk"
   status = 200
-
-[[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+  force = true
+  signed = "hs8ZqgPMwb3rcFk8yeg15ti7zw7yLLQ1yKzt4z6i"

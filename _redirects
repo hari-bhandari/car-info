@@ -1,3 +1,2 @@
-/api/*  https://driver-vehicle-licensing.api.gov.uk/:splat  200
+/*  https://driver-vehicle-licensing.api.gov.uk/:splat  200
 
-/*    /index.html   200
