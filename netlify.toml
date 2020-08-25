@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "https://driver-vehicle-licensing.api.gov.uk"
-  status = 200
-  force = true
-  signed = "hs8ZqgPMwb3rcFk8yeg15ti7zw7yLLQ1yKzt4z6i"
