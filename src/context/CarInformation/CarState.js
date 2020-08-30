@@ -25,7 +25,7 @@ const CarState=props=>{
         };
         const formData = {"registrationNumber":number};
         try {
-            const res = await axios.post('https://cors-anywhere.herokuapp.com/https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles', formData, config);
+            const res = await axios.post('https://no--cors.herokuapp.com/cors?url=https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles', formData, config);
             console.log(res)
             dispatch({
                 type:GET_VEHICLE_INFO,
